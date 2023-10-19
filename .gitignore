@@ -24,6 +24,7 @@ spring-shell.log
 ###############
 /telegram.api/td/
 application*.yaml
+!application.yaml
 tdlib/
 tdlib.log
 

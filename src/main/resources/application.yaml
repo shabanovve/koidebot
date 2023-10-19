@@ -1,0 +1,17 @@
+telegram:
+  chat:
+    id: 0 #the id of monitoring channel
+    titlePart: "dummy" #the part of name monitoring channel. Need to find channel id
+    limit: 200  #the maximum amount loading chat during find channel by titlePart
+
+  api:
+    id: 0 #the id of api access
+    hash: 0 #the hash corresponding id access
+
+  log:
+    enableUpdateExceptionLogger: false #enable writing telegram logger to app log
+    enableDefaultExceptionLogger: false #enable writing telegram logger to app log
+
+publisher:
+  cron:
+    expression: '0 0 12 * * FRI' #cron scheduler for publishing regular message
