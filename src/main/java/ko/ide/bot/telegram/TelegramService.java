@@ -45,4 +45,8 @@ public class TelegramService {
             throw new IOError(new IOException("Write access to the current directory is required"));
         }
     }
+
+    public void sendMessage() {
+        System.out.println("MyLog publishMessage");
+    }
 }
